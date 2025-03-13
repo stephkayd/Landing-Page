@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Sets the language of the document to English -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport for responsive design -->
+    <title>Company Landing Page</title> <!-- Title of the webpage displayed in the browser tab -->
+    <!-- Linking to Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to a custom CSS file for additional styling -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Navigation bar setup -->
+            <div class="container"> <!-- Container for responsive spacing -->
+                <a class="navbar-brand" href="#"> <!-- Logo link -->
+                    <img src="logo.jpg" alt="CompanyLogo"> <!-- Company logo as an image -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span> <!-- Icon for mobile toggle -->
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav"> <!-- Collapsible navigation menu -->
+                    <ul class="navbar-nav ms-auto"> <!-- Right-aligned navigation items -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a> <!-- Link to services section -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a> <!-- Link to about section -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a> <!-- Link to contact section -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main> <!-- Main content area -->
+        <section class="hero d-flex align-items-center justify-content-center"> <!-- Hero section for welcome message -->
+            <div class="container text-center"> <!-- Container for text alignment -->
+                <h1>Welcome to Spa Coffee</h1> <!-- Main heading -->
+                <p>Spa Coffee is a unique coffee experience that blends the rejuvenating ambiance of a spa with the rich, aromatic qualities of freshly brewed coffee. Our mission is to provide a tranquil space where customers can unwind and recharge while enjoying premium coffee sourced from sustainable farms around the world. At Spa Coffee, we offer a curated selection of specialty brews, organic teas, and artisanal pastries, all served in a serene environment designed for relaxation. Whether you're looking for a peaceful spot to sip your morning coffee or a cozy place to catch up with friends, Spa Coffee is your sanctuary for a delightful and refreshing escape. Join us to nourish your body and soul, one cup at a time</p> <!-- Subheading -->
+                <a href="#services" class="btn btn-primary">Get Started</a> <!-- Call to action button -->
+            </div>
+        </section>
+
+        <section id="services" class="services py-5"> <!-- Services section -->
+            <div class="container"> <!-- Container for spacing -->
+                <h2 class="text-center mb-4">Come experience what we have to offer</h2> <!-- Services heading -->
+                <div class="row g-4"> <!-- Row for service cards -->
+                    <div class="col-md-4"> <!-- First service card -->
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="box1.jpg" alt="Drinks"> 
+                                <h5 class="card-title">Drinks</h5> <!-- Service title -->
+                                <p class="card-text">Browse our selection of specialty brews & organic teas.</p> <!-- Description of service -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4"> <!-- Second service card -->
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="box2.jpg" alt="Eats"> 
+                                <h5 class="card-title">Eats</h5> <!-- Service title -->
+                                <p class="card-text">Experience our daily, locally sourced artisanal pastries.</p> <!-- Description of service -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4"> <!-- Third service card -->
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="box3.jpg" alt="Atmosphere"> 
+                                <h5 class="card-title">Atmosphere</h5> <!-- Service title -->
+                                <p class="card-text">Relax and unwind in our spa inspired environment.</p> <!-- Description of service -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about py-5"> <!-- About section -->
+            <div class="container text-center"> <!-- Container for text alignment -->
+                <h2>About Us</h2> <!-- About heading -->
+                <p>We are dedicated to providing delicious drinks and deliectible baked goods. We pride ourselves on using the highest quality ingredients, sourcing locally whenever possible. </p> <!-- About description -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-4"> <!-- Footer section -->
+        <div class="container d-flex justify-content-between align-items-center"> <!-- Flex container for layout -->
+            <div>
+                <p><a href="mailto:stephanie.dunham@libertymutual.com">Contact</a></p> <!-- Email contact link -->
+            </div>
+            <div>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> <!-- Facebook link -->
+                <a href="https://www.twitter.com" target="_blank">Twitter</a> <!-- Twitter link -->
+                <a href="https://www.instagram.com" target="_blank">Instagram</a> <!-- Instagram link -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts for Bootstrap and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> <!-- Popper.js for Bootstrap tooltips and popovers -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JavaScript bundle -->
+</body>
+
+</html>
+

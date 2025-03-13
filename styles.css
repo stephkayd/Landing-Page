@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif; /* Sets the default font for the body to Arial, with sans-serif as a fallback */
+    color:rgb(19, 138, 98);
+}
+
+.hero {
+    height: 100vh; /* Sets the height of the hero section to 100% of the viewport height */
+    background: url('https://source.unsplash.com/1600x900/?business') no-repeat center center/cover; /* Sets a background image that covers the entire area, centered */
+    color: rgb(19, 138, 98); /* Sets the text color within the hero section to a dark gray */
+}
+
+.hero h1 {
+    font-size: 3rem; /* Sets the font size of the main heading (h1) in the hero section to 3rem */
+    color:rgb(19, 138, 98) ;
+}
+
+.services .card {
+    height: 100%; /* Makes the card in the services section take the full height of its parent container */
+    text-align: center;
+
+}
+.services {
+    color:rgb(19, 138, 98);
+} 
+
+footer a {
+    text-decoration: none; /* Removes the underline from links in the footer */
+    color: black; /* Sets the color of footer links to black */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underlines footer links on hover for better visual indication */
+}
